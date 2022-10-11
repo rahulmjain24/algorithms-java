@@ -4,6 +4,9 @@ public class LinearSearch {
     //In linear search we take an Iterable and iterate over every element linearly, that is,
     //check the first element and if it's not what we are looking for move to the next one.
     //If the item is found, the function returns the item else -1
+
+    //Complexity : O(n)
+
     public static int search(int[] list, int searchItem) {
        if (list == null)
            return -1;

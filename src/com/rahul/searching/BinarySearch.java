@@ -6,6 +6,8 @@ public class BinarySearch {
     // element we are looking for, if it is we ignore the elements before the middle element and check the next middle
     // element and keep doing it until we find our value.
 
+    //Complexity : O(log n)
+
     public static int start;
     public static int middle;
     public static int end;
